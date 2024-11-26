@@ -20,17 +20,19 @@ A Chrome Extension that allows you to save any video's frame as a PNG image.
 
 ## Features
 
+- Save Frame Context Menu (when right clicking on a video)
 - Keyboard Shortcut actions:
-  - Download Current Frame
-  - Open Current Frame in New Tab
-  - Open Current Frame in New Background Tab
-    - Same as previous function, except switches back to the current video tab
-  - Toggle Speed to 0
-    - For videos where this extension may fail, this function sets the video's speed to 0, which simulates pausing without changing the video playback UI
+    - Download Current Frame
+    - Open Current Frame in New Tab
+    - Open Current Frame in New Background Tab
+        - Same as previous function, except switches back to the current video tab
+    - Toggle Speed to 0
+        - For videos where this extension may fail, this function sets the video's speed to 0, which simulates pausing
+          without changing the video playback UI
 - Works on Chromium-based browsers, including Google Chrome, Brave, and Microsoft Edge
 - Current Frame window:
-  -  Download frame with button
-  -  Copy frame to clipboard by in context (right click) menu
+    - Download frame with button
+    - Copy frame to clipboard by in context (right click) menu
 
 ## Screenshot
 
@@ -40,7 +42,8 @@ A Chrome Extension that allows you to save any video's frame as a PNG image.
 
 ### Chrome Web Store
 
-1. Go [here](https://chrome.google.com/webstore/detail/framegrab/gjollkpcmnigdfnkdhkpgjbiahgijghc) to find the extension on the Chrome Web Store
+1. Go [here](https://chrome.google.com/webstore/detail/framegrab/gjollkpcmnigdfnkdhkpgjbiahgijghc) to find the extension
+   on the Chrome Web Store
 2. Click "Add to Chrome"
 3. Configure the extension below
 
@@ -69,7 +72,9 @@ A Chrome Extension that allows you to save any video's frame as a PNG image.
 - [Open Web JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference)
 
 ## Licensing
+
 ### FrameGrab is licensed under the terms of the GNU GPLv3 license.
+
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or

@@ -6,6 +6,9 @@
   "background": {
     "service_worker": "src/background.js"
   },
+  "permissions": [
+    "contextMenus"
+  ],
   "icons": {
     "16": "res/icon16.png",
     "48": "res/icon48.png",
