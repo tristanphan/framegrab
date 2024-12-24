@@ -1,0 +1,20 @@
+{
+  "name": "framegrab",
+  "version": "1.0.0",
+  "description": "A Chrome Extension that allows you to save any video's frame as a PNG image.",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "build": "npm run clean && webpack",
+    "clean": "rm -rf ./dist/"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/webpack": "^5.28.5",
+    "copy-webpack-plugin": "^12.0.2",
+    "npm-check": "^6.0.1",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

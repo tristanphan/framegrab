@@ -1,18 +1,18 @@
 {
   "name": "FrameGrab",
   "description": "Tools for Video Frame Capture",
-  "version": "0.0.1.0",
+  "version": "0.0.2.0",
   "manifest_version": 3,
   "background": {
-    "service_worker": "src/background.js"
+    "service_worker": "background.js"
   },
   "permissions": [
     "contextMenus"
   ],
   "icons": {
-    "16": "res/icon16.png",
-    "48": "res/icon48.png",
-    "128": "res/icon128.png"
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
   },
   "commands": {
     "download": {
@@ -51,7 +51,7 @@
       ],
       "all_frames": true,
       "js": [
-        "src/page.js"
+        "page.js"
       ]
     }
   ]

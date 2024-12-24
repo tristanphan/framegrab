@@ -1,0 +1,10 @@
+{
+  "depcheck": {
+    "ignoreMatches": [
+      "npm-check",
+      "ts-loader",
+      "ts-node",
+      "webpack-cli"
+    ]
+  }
+}
